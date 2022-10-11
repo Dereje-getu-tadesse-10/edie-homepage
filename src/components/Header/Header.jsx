@@ -18,7 +18,7 @@ export const Header = () => {
 
     return (
         <header className="flex justify-between items-center overflow-hidden px-10 py-5">
-            <div className="z-10 mt-3 ml-3 font-extrabold text-2xl text-gray">
+            <div className="z-10 mt-3 ml-3 font-extrabold text-2xl text-gray md:text-4xl">
                 Edie
             </div>
             <nav>

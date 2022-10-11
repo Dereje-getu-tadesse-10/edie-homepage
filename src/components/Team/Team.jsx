@@ -4,10 +4,13 @@ import PersonThree from "../../assets/images/person3.png"
 
 export const Team = () => {
     return (
-        <section className="mt-16 mb-24 p-3 md:flex md:justify-around md:items-center">
+        <section className="mt-16 mb-24 p-3 md:flex md:justify-around md:items-center"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+        >
 
             <div className="flex flex-col gap-4 md:w-[300px]">
-                <h2 className="text-redColor">
+                <h2 className="text-redColor text-lg">
                     Meet the team
                 </h2>
                 <h1 className="text-gray text-4xl font-medium">
